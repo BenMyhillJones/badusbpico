@@ -1,0 +1,13 @@
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell -c start https://mail.google.com/mail/u/0/#inbox?compose=new
+ENTER
+DELAY 8000
+STRING benmyhilljones@gmail.com
+ENTER
+TAB
+Prostate Exam & Full Cavity Search
+TAB
+STRING You are long overdue for a full cavity search mister.
+CTRL ENTER
