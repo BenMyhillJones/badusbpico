@@ -1,0 +1,40 @@
+
+DELAY 250
+
+REM Open search bar
+GUI r
+DELAY 50
+
+REM Run Chrome
+STRING chrome
+ENTER
+DELAY 1000
+
+REM Open new tab for Gmail
+STRING https://mail.google.com/mail/u/0/#inbox
+ENTER
+DELAY 3000
+
+REM Compose new email (Shift + c is Gmail shortcut for Compose)
+SHIFT c
+DELAY 1000
+
+REM Type recipient email
+STRING benmyhilljones@gmail.com
+ENTER
+DELAY 10
+TAB
+DELAY 30
+
+REM Type subject
+STRING Presentation Script
+DELAY 30
+TAb
+DELAY 30
+
+REM Type message body
+STRING Hello Ben, this is an automated presentation email sent via Duckyscript.
+DELAY 50
+
+REM Send the email
+CTRL ENTER
