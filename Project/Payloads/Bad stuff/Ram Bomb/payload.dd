@@ -1,0 +1,10 @@
+DELAY 1000
+GUI r
+DELAY 200
+STRING powershell -c start google.com
+ENTER
+DELAY 2000
+
+REPEAT 10000 {
+  CTRL TAB
+}
